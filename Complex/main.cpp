@@ -6,13 +6,13 @@ int main()
 	Complex a{ 6,-10 };
 	Complex b{ 4,-8 };
 	cout << "сумма: ";
-	sum(a, b);
+	a.sum(b);
 	cout << "разность: ";
-	difference(a, b);
+	a.difference(b);
 	cout << "произведение: ";
-	multiplication(a, b);
+	a.multiplication(b);
 	cout << "частное: ";
-	division(a, b);
-	abs(a, b);
+	a.division(b);
+	a.abs(b);
 	reading("C:\Users\sasha\source\repos\Complex\Complex\complex.txt");
 }
